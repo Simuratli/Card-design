@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+
+<style type="text/css">
+body {
+  margin:0;
+  padding:0;
+  width:100%;
+  height:100%;
+  font-family:sans-serif;
+  background-color:#262626
+  
+}
+
+.testimotionals {
+width:350px;
+ display:inline-block;
+  margin-left:50px;
+  margin-top:50px
+  
+}
+
+
+.testimotionals .card {
+  
+  position:relative;
+  overflow:hidden;
+  width:350px;
+  margin:0 auto;
+  background:#333;
+  padding:20px;
+  box-sizing:border-box;
+  text-align:center;
+  box-shadow:0 10px 40px rgba(0,0,0,.5)
+}
+.testimotionals .card .layer {
+  z-index:1;
+  position:absolute;
+  top:calc(100% - 2px);
+  height:100%;
+  width:100%;
+  left:0;
+  background:linear-gradient(to left , orange, tomato);
+  transition:0.5s;
+  
+}
+
+.testimotionals .card .content {
+  z-index:2; 
+  position:relative;
+}
+
+.testimotionals .card:hover  .layer{
+  top:0;
+}
+
+.testimotionals .card .content p {
+  font-size:14px;
+  line-height:24px;
+  color:#fff;
+  
+}
+.testimotionals .card .content .image {
+  width:100px; height:100px;
+  margin:0 auto;
+  border-radius:50%;
+  overflow:hidden;
+  border: 4px solid white;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+  
+}
+
+.testimotionals .card .conte nt .details h2 {
+font-size:18px;
+color:white;
+}
+.testimotionals .card .content .details h2 span {
+font-size:18px;
+color:purple;
+  transition:0.5s;
+}
+.testimotionals .card:hover .content .details h2 span {
+  color:white;
+  position:relative
+}
+
+body{
+  margin-bottom:20px
+}
+
+</style>
+<body>
+
+	<div class="testimotionals">
+		<div class="card">
+			<div class="layer">
+
+			</div>
+			<div class="content">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam iusto ea tenetur quas facere minima obcaecati mollitia sed ipsum quod, eius repellat nihil quos. Saepe ipsa veritatis magni voluptates voluptatum.</p>
+				<div class="image">
+					<img width="100%" src="http://i.hurimg.com/i/hurriyet/75/590x0/5809e7340f25445d14578da8.jpg" alt="">
+
+				</div>
+				<div class="details">
+					<h2> Someone famous <br> <span>Backend developer</span></h2>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="testimotionals">
+		<div class="card">
+			<div class="layer">
+
+			</div>
+			<div class="content">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam iusto ea tenetur quas facere minima obcaecati mollitia sed ipsum quod, eius repellat nihil quos. Saepe ipsa veritatis magni voluptates voluptatum.</p>
+				<div class="image">
+					<img width="100%" src="https://cdn.fashionmagazine.com/wp-content/uploads/2017/04/02_Portrait-Cara-Delevingne_HD-480x600-c-top.jpg" alt="">
+
+				</div>
+				<div class="details">
+					<h2> Someone famous <br> <span>Front end developer</span></h2>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="testimotionals">
+		<div class="card">
+			<div class="layer">
+
+			</div>
+			<div class="content">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam iusto ea tenetur quas facere minima obcaecati mollitia sed ipsum quod, eius repellat nihil quos. Saepe ipsa veritatis magni voluptates voluptatum.</p>
+				<div class="image">
+					<img width="100%" src="https://timedotcom.files.wordpress.com/2017/04/time-100-2017-emma-stone.jpg?w=450" alt="">
+
+				</div>
+				<div class="details">
+					<h2> Someone famous <br> <span>Website designer</span></h2>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
